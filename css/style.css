@@ -37,7 +37,7 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 10px;
   position: sticky;
   top: 10px;
   z-index: 1;
@@ -55,12 +55,17 @@ header {
   padding: 20px;
   flex-wrap: wrap;
   background-color: #ede7de;
+  height: 100px;
+  align-content: center;
+
   
   
   
 }
 h1 {
   opacity: 75%;
+  font-family: 'Bitter';
+  font-weight: 300;
 }
 h1:hover{
   color:rgb(13, 66, 36)
@@ -99,9 +104,9 @@ a:hover {
 nav {
   border: 1px solid seagreen;
   width: 40%;
-  height: 75px;
+  height: 60px;
   position: relative;
-  bottom: 25px;
+  bottom: 20px;
   background-color: #ede7de;
   
   
