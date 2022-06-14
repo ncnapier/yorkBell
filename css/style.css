@@ -50,7 +50,7 @@ header {
   display: flex;
   justify-content: center;
   color: seagreen;
-  font-size: 2.5rem;
+  font-size: 2rem;
   border: 1px solid seagreen;
   padding: 20px;
   flex-wrap: wrap;
@@ -62,10 +62,16 @@ header {
   
   
 }
+
+.letter {
+  font-size: 6rem;
+}
 h1 {
   opacity: 75%;
   font-family: 'Bitter';
   font-weight: 300;
+  display: flex;
+  align-items: flex-start;
 }
 h1:hover{
   color:rgb(13, 66, 36)
