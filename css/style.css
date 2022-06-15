@@ -1,0 +1,290 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html {
+  font-size: 62.5%;
+  background-color: #ede7de;
+}
+header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  position: sticky;
+  top: 10px;
+  z-index: 1;
+  width: 100%;
+  
+  
+
+}
+#title {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  color: seagreen;
+  font-size: 1.5vw;
+  
+  padding: 20px;
+  flex-wrap: wrap;
+  
+  height: 100px;
+  align-content: center;
+
+  
+  
+  
+}
+nav {
+  width: 100%;
+}
+
+.letter {
+  font-size: 3vw;
+}
+h1 {
+  opacity: 75%;
+  font-family: 'Bitter';
+  font-weight: 300;
+  display: flex;
+  align-items: flex-start;
+}
+h1:hover{
+  color:rgb(13, 66, 36)
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  
+  
+  
+}
+ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+li, a {
+  text-decoration: none;
+  list-style: none;
+  color:  seagreen;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  
+  
+}
+a:hover {
+  color: rgb(13, 66, 36)
+}
+
+  
+
+nav {
+  
+  width: 100%;
+  height: 60px;
+  position: relative;
+  bottom: 20px;
+  
+  
+  
+  
+  
+  
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: seagreen solid 1px;
+}
+#slide {
+  display: flex;
+  justify-content: center;
+ 
+  width: 100%;
+}
+#slide img {
+  width: 65%;
+  height: 400px;
+}
+#slideCont {
+  border: seagreen double 1px;
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  height: 500px;
+  align-items: center;
+}
+.abtBox {
+  
+  width: 50%;
+  position: relative;
+  bottom: 500px;
+  
+  
+  
+  height: 150px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.abtBox span{
+  color: white;
+  font-size: 2vw;
+
+}
+#tglc img{
+  width: 100%;
+  display: none;
+}
+
+/*slide show*/
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  bottom: 70px;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+footer {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  height: 50px;
+
+
+}
+#logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#logo img {
+  width: 40%;
+  height: 60px;
+}
+
+.soc {
+  width: 20%;
+}
+.soc  {
+  height: 150px;
+  opacity: 30%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
