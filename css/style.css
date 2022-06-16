@@ -238,6 +238,16 @@ main {
   from {opacity: .4}
   to {opacity: 1}
 }
+#quote {
+  color: white;
+  position: relative;
+  bottom: 300px;
+  font-size: 1.5vw;
+  width: 50%;
+  font-style: italic;
+  opacity: 80%;
+  
+}
 
 .container {
   width: 100%;
@@ -291,6 +301,9 @@ main {
 }
 h2 {
   color: rgb(215, 153, 6)
+}
+h3 {
+  margin: 7px 0 0 0;
 }
 #mission {
   flex-direction: row-reverse;
