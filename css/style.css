@@ -90,6 +90,9 @@ nav ul{
   
   
 }
+.slideshow-container img{
+  opacity: 80%;
+}
 ul {
   display: flex;
   justify-content: center;
@@ -250,7 +253,7 @@ main {
   opacity: 80%;
   z-index: 3;
 }
-/* .divider {
+ /* .divider {
   height: 200px;
   width: 100%;
   background-color: rgb(215, 83, 6);
@@ -259,8 +262,8 @@ main {
   
   transform: skew(0deg, 5deg);
  
-}
-.divider2 {
+} */
+/* .divider2 {
   height: 200px;
   width: 100%;
   background-color: rgb(215, 83, 6);
@@ -269,7 +272,8 @@ main {
   
  
  
-}
+} */
+/*
 .divider3 {
   height: 200px;
   width: 100%;
@@ -300,7 +304,7 @@ main {
   color: #ede7de;
   
   max-height: 700px;
-  min-height: 500px;
+  min-height: 300px;
 
 }
 .container img {
@@ -341,6 +345,9 @@ main {
   font-size: 2vw;
   flex-direction: column;
   
+}
+.containerText p {
+  color: #ede7de;
 }
 .container .containerText h2 {
   margin-bottom: 0px;
