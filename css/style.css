@@ -148,6 +148,7 @@ main {
   width: 75%;
   height: 500px;
   align-items: center;
+  
 }
 
 
@@ -157,6 +158,7 @@ main {
   width: 100%;
   position: relative;
   bottom: 70px;
+  
   
 }
 
@@ -239,22 +241,66 @@ main {
   to {opacity: 1}
 }
 #quote {
-  color: white;
+  color: #ede7de;
   position: relative;
-  bottom: 250px;
-  font-size: 1.5vw;
+  bottom: 600px;
+  font-size: 1.9vw;
   width: 50%;
   font-style: italic;
   opacity: 80%;
-  
+  z-index: 3;
 }
+/* .divider {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(215, 83, 6);
+  position: relative;
+  bottom: 400px;
+  
+  transform: skew(0deg, 5deg);
+ 
+}
+.divider2 {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(215, 83, 6);
+  position: relative;
+  bottom: 500px;
+  
+ 
+ 
+}
+.divider3 {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(215, 83, 6);
+  position: relative;
+  bottom: 720px;
+  
+  transform: skew(0deg, -5deg);
+ 
+}
+.divider4 {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(215, 83, 6);
+  position: relative;
+  bottom: 820px;
+  
+ 
+ 
+} */
 
 .container {
   width: 100%;
   display: flex;
   /* height: 600px; */
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   flex-shrink: 1;
+  color: #ede7de;
+  
+  max-height: 700px;
+  min-height: 500px;
 
 }
 .container img {
@@ -315,7 +361,7 @@ h3 {
   width: 50%;
 }
 iframe {
-  max-height: 600px;
+  height: 600px;
   width: 50%;
 }
 .cont {
