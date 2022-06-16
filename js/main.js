@@ -1,4 +1,14 @@
 
+//change pics automatically
+function navSwitch() {
+  document.querySelector('nav').classList.add('newNav', 'fade')
+}
+function flashes() {
+  
+setTimeout(navSwitch, 2000);
+}
+flashes();
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -27,6 +37,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+//change pics automatically
 
 //change nav on scroll
 // $(window).scroll(function(){
