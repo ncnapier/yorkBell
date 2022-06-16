@@ -40,9 +40,10 @@ header {
   flex-wrap: wrap;
   align-items: center;
   position: sticky;
-  top: 30px;
+  top: 60px;
   z-index: 1;
   width: 100%;
+  
   
   
 
@@ -148,29 +149,7 @@ main {
   height: 500px;
   align-items: center;
 }
-.abtBox {
-  
-  width: 50%;
-  position: relative;
-  bottom: 450px;
-  
-  
-  
-  height: 150px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.abtBox span{
-  color: white;
-  font-size: 2vw;
 
-}
-#tglc img{
-  width: 100%;
-  display: none;
-}
 
 /*slide show*/
 /* Slideshow container */
@@ -272,6 +251,30 @@ main {
   width: 50%;
   
 }
+#imgBackAbout {
+  background-image: url(./photos/PXL_20211209_174100409\ \(Medium\).jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: stretch;
+  width: 50%;
+}
+#imgBackMission {
+  background-image: url(./photos/PXL_20220422_161438991.MP.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: stretch;
+  width: 50%;
+}
+#imgBackContact {
+  background-image: url(./photos/PXL_20211209_185907913.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: stretch;
+  width: 50%;
+}
 .containerText {
   padding: 30px;
   display: flex;
@@ -341,7 +344,7 @@ footer {
 }
 #logo img {
   width: 40%;
-  height: 60px;
+  
 }
 
 .soc {
