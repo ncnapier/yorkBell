@@ -451,6 +451,16 @@ footer {
   height: 150px;
   opacity: 30%;
 }
+#nattyDevs {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 1.3vw;
+  color: #717171;
+  opacity: 60%;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 1050px) {
   #quote {
