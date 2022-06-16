@@ -1,6 +1,7 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 /* Clear fix hack */
@@ -37,9 +38,9 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 10px;
+  align-items: center;
   position: sticky;
-  top: 10px;
+  top: 30px;
   z-index: 1;
   width: 100%;
   
@@ -50,10 +51,10 @@ header {
   width: 75%;
   display: flex;
   justify-content: center;
-  color: seagreen;
+  color: rgb(102, 149, 122);
   font-size: 1.5vw;
   
-  padding: 20px;
+  
   flex-wrap: wrap;
   
   height: 100px;
@@ -72,10 +73,11 @@ nav {
 }
 h1 {
   opacity: 75%;
-  font-family: 'Bitter';
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 300;
   display: flex;
   align-items: flex-start;
+  justify-content: center;
 }
 h1:hover{
   color:rgb(13, 66, 36)
@@ -95,11 +97,11 @@ ul {
 li, a {
   text-decoration: none;
   list-style: none;
-  color:  seagreen;
+  color:  rgb(102, 149, 122);
   width: 30%;
   display: flex;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 2.7vw;
   
   
 }
@@ -126,7 +128,7 @@ main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  border-bottom: seagreen solid 1px;
+  border-bottom: rgb(102, 149, 122) solid 1px;
 }
 #slide {
   display: flex;
@@ -139,7 +141,7 @@ main {
   height: 400px;
 }
 #slideCont {
-  border: seagreen double 1px;
+  border: rgb(102, 149, 122) double 1px;
   display: flex;
   justify-content: center;
   width: 75%;
@@ -150,7 +152,7 @@ main {
   
   width: 50%;
   position: relative;
-  bottom: 500px;
+  bottom: 450px;
   
   
   
@@ -257,6 +259,70 @@ main {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.container {
+  width: 100%;
+  display: flex;
+  /* height: 600px; */
+  margin-bottom: 200px;
+  flex-shrink: 1;
+
+}
+.container img {
+  width: 50%;
+  
+}
+.containerText {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(102, 149, 122);
+  color: white;
+  font-size: 2vw;
+  flex-direction: column;
+  
+}
+.container .containerText h2 {
+  margin-bottom: 0px;
+}
+h2 {
+  color: rgb(215, 153, 6)
+}
+#mission {
+  flex-direction: row-reverse;
+}
+#location {
+  flex-direction: row-reverse;
+}
+.containerText {
+  width: 50%;
+}
+iframe {
+  max-height: 600px;
+  width: 50%;
+}
+.cont {
+  color:rgb(215, 153, 6)
+}
+.contImg {
+  height: 3vw;
+  
+}
+#methods {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-self: flex-start;
+}
+
+#socials {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  width: 75%;
+  flex-direction: row;
+}
 footer {
   
   display: flex;
@@ -285,6 +351,12 @@ footer {
   height: 150px;
   opacity: 30%;
 }
+
+/* New Class for Nav on Scroll */
+
+/* .scrolled{
+  background:#ede7de;
+} */
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/

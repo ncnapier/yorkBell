@@ -27,3 +27,19 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+//change nav on scroll
+// $(window).scroll(function(){
+// 	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+// });
+// window.scroll(scrollNav)
+
+// function scrollNav() {
+//   document.querySelector('nav').toggleClass('scrolled', this.scrollTop()>100);
+// }
+
+// window.scroll(testF)
+
+// function testF() {
+//   document.querySelector('html').style.backgroundColor = 'red'
+// }
