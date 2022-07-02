@@ -1,14 +1,23 @@
 
-//change pics automatically
+//change the navbar on scroll
 function navSwitch() {
   document.querySelector('nav').classList.add('newNav', 'fade')
 }
-function flashes() {
+window.onscroll = function() {navSwitch()};
+// function flashes() {
   
-setTimeout(navSwitch, 2000);
-}
-flashes();
+// setTimeout(navSwitch, 2000);
+// }
+// flashes();
+// function scrollCheck(){
+//   if(Window.pageYOffset > 0.0){
+//     navSwitch();
+//   }
+// }
 
+
+
+//slide functionality 
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -40,18 +49,6 @@ function showSlides(n) {
 
 //change pics automatically
 
-//change nav on scroll
-// $(window).scroll(function(){
-// 	$('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
-// });
-// window.scroll(scrollNav)
 
-// function scrollNav() {
-//   document.querySelector('nav').toggleClass('scrolled', this.scrollTop()>100);
-// }
 
-// window.scroll(testF)
 
-// function testF() {
-//   document.querySelector('html').style.backgroundColor = 'red'
-// }

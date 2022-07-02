@@ -433,13 +433,14 @@ footer {
 
 
 }
+
 #logo {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
 }
-#logo img {
+#logo a{
   width: 40%;
   
 }
