@@ -177,6 +177,14 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}.upsidePeaks1{
+  background-image: url("./photos/stacked-peaks-haikei-upsidedown.png");
+  height: 400px;
+  width: 100%;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 main {
   display: flex;
